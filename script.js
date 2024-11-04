@@ -33,7 +33,6 @@ function sorteadorPrimo(...numeros){
 sorteadorAlunos(2,3,5,7,11,13,17,19)
 
 function sorteadorAlunos(...numeros){
-    console.log(numeros);
 
     const numeroSorteado = Math.floor(Math.random()*numeros.length)
 
